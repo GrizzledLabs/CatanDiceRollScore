@@ -14,7 +14,7 @@ def keepset(keepers):
 
 score = 0
 options = ['GOLD', 'ORE', 'LUMBER', 'BRICK', 'SHEEP', 'WHEAT']
-print('Catan Dice Game Roller\n\nIt will roll for you and let you choose what to keep. You can write it however you want in the keeper input. I prefer just letters, like lblb, but you could write lumber lumber brick brick.\n\nAt the end of each round, it will ask for the score for that round, then total your current score.')
+print('Catan Dice Game Roller\n\nIt will roll for you and let you choose what to keep. When stating what you keep, use just letters, like lblb, instead of lumber lumber brick brick.\n\nAt the end of each round, it will ask for the score for that round, then total your current score.')
 while True:
     print('')
     roll = []
