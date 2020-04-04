@@ -29,5 +29,10 @@ while True:
     for i in range(number):
         roll.append(random.choice(options))
     print('\nFINAL ROLL: ', ' '.join(roll), ' '.join(list(keepers)))
-    score += int(input('score: '))
+    while True:
+        try:
+            score += int(input('score: '))
+            break
+        except Exception:
+            pass
     print(f'Score: {score}')
